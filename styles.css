@@ -54,5 +54,17 @@ hr{
 .list-inline{
     display: inline;
     padding: 0rem 1rem;
-    
+
 }
+
+/* Nav */
+
+.navigation{
+    background-color: var(--primarycolor);
+    color:white;
+}
+.navigation .link{
+    color:white;
+}
+
+
