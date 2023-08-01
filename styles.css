@@ -19,8 +19,12 @@ body {
     margin: auto;
 
 }
+hr{
+    margin: 1.75rem 0rem;
+}
 
 /**link**/
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -38,3 +42,17 @@ body {
     border: 2px solid var(--primarycolor);  
 }
 
+/* Check out what is BEM naming convention */
+
+
+/* Lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
