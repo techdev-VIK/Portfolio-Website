@@ -67,4 +67,22 @@ hr{
     color:white;
 }
 
+/* section */
+
+/* .section{
+    padding: 2rem;
+} */
+
+.section h1{
+    text-align: center;
+
+}
+.cy{
+    background-color: cyan;
+    
+}
+
+.ow{
+    background-color: gray;
+}
 
