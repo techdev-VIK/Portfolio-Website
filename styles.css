@@ -68,6 +68,16 @@ hr{
     color:white;
 }
 
+/* header */
+
+.header-h1{
+    background-color: var(--primarycolor);
+    color:white;
+    border-radius: 1rem 1rem;
+    padding: 4px;
+
+}
+
 /* section */
 
 /* .section{
