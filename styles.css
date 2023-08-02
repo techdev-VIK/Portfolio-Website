@@ -28,6 +28,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 .primary-link {
     
@@ -84,5 +85,19 @@ hr{
 
 .ow{
     background-color: gray;
+}
+
+.footer{
+    text-align: center;
+    padding:2rem;
+    background-color: var(--primarycolor);
+    color: white;
+
+}
+.footer-link{
+    
+    color: lightblue;
+    text-decoration: none;
+
 }
 
