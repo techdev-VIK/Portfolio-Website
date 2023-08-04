@@ -17,6 +17,7 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 
 }
 hr{
@@ -111,10 +112,4 @@ hr{
 
 }
 
-.footer-link{
-    
-    color: lightblue;
-    text-decoration: none;
-
-}
 
