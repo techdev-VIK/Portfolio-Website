@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
 :root {
-    --primarycolor: rgb(139, 23, 126);
+    --primarycolor: rgb(123, 100, 182);
 }
 
 body {
@@ -15,33 +15,35 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
 
 }
-hr{
+
+hr {
     margin: 1.75rem 0rem;
 }
 
 /**link**/
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 
 }
+
 .primary-link {
-    
+
     background-color: var(--primarycolor);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
 
-.secondary-link{
-    color:var(--primarycolor);
+.secondary-link {
+    color: var(--primarycolor);
     border-radius: 0.5rem;
-    border: 2px solid var(--primarycolor);  
+    border: 2px solid var(--primarycolor);
 }
 
 /* Check out what is BEM naming convention */
@@ -49,11 +51,11 @@ hr{
 
 /* Lists */
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-inline{
+.list-inline {
     display: inline;
     padding: 0rem 1rem;
 
@@ -61,19 +63,37 @@ hr{
 
 /* Nav */
 
-.navigation{
+.navigation {
     background-color: var(--primarycolor);
-    color:white;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
-.navigation .link{
-    color:white;
+
+.navigation .link {
+    color: white;
 }
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+    color: cyan;
+}
+
 
 /* header */
 
-.header-h1{
+.header-h1 {
     background-color: var(--primarycolor);
-    color:white;
+    color: white;
     border-radius: 1rem 1rem;
     padding: 4px;
 
@@ -85,31 +105,35 @@ hr{
     padding: 2rem;
 } */
 
-.section h1{
+.section h1 {
     text-align: center;
 
 }
-.cy{
-    background-color: cyan;
-    
+
+.cy {
+    background-color: rgba(233, 238, 238, 0.853);
+
 }
 
-.ow{
-    background-color: gray;
+.ow {
+    background-color: rgb(241, 226, 241);
 }
 
-.footer{
+.footer {
     text-align: center;
-    padding:2rem;
+    padding: 2rem;
     background-color: var(--primarycolor);
     color: white;
 
 }
-.footer-link{
-    
-    color: lightblue;
+
+.footer-link {
+
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
 
-
+.footer ul {
+    padding-inline-start: 0px;
+}
