@@ -96,6 +96,7 @@ hr {
     color: white;
     border-radius: 1rem 1rem;
     padding: 4px;
+    
 
 }
 
@@ -136,4 +137,14 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.para{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #333;
+  margin: auto;
+  margin-bottom: 20px;
+
 }
