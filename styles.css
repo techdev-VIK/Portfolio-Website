@@ -120,7 +120,11 @@ hr {
 }
 
 .ow {
-    background-color: rgb(241, 226, 241);
+    background-color: rgb(239, 239, 169);
+}
+
+.space{
+    margin-bottom: 10vh;
 }
 
 .footer {
