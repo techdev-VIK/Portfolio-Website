@@ -11,7 +11,7 @@ body {
 /**container**/
 
 .container {
-    padding: 0 rem 1 rem;
+    padding: 0rem 1rem;
 }
 
 .container-center {
@@ -70,7 +70,7 @@ hr {
     background-color: var(--primarycolor);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 0 1rem 0 1rem;
 }
 
 .navigation .link {
